@@ -1,0 +1,18 @@
+Weapons
+
+
+
+	:glob:
+	
+	weapontypes
+	anim
+	cursors
+	damage
+	ammo
+	ivanbombs
+	radiation
+	electricbolts
+	waves
+	laser
+	railgun
+	projectilerange

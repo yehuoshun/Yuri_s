@@ -1,0 +1,49 @@
+Hard-coded Unit Properties
+
+
+The game is hard-coded to do certain things with certain unit IDs. Namely the
+[COW]► and [DESO]►. These units can now have said special properties
+switched off, and other units can be given these properties if you want.
+Hard-coded properties of Cows and Desolators can be toggled on/off for any
+infantry.
+
+
+ Infantry; Move around randomly like a cow
+
+IsCow
+
+
+The [COW]► was hard-coded to play its idle animation more frequently than
+other infantry and was also hard-coded to move around randomly. You can now set
+IsCow=yes on other InfantryTypes or, indeed, IsCow=no on
+the [COW]►.
+
+[InfantryType]IsCow=boolean
+  Defaults to yes for [COW]►, otherwise to no.
+
+ 0.1
+
+
+ Infantry;Desolator special handling
+
+IsDesolator
+
+
+The [DESO]► was hard-coded to have different deploy-weapon firing timing
+than other units to coincide with the unit's art Sequence.
+
+Deployable infantry that is also ImmuneToRadiation=yes has an additional
+hardcoded effect which causes the unit to automatically fire at the ground when
+deployed, depending on the radiation of the cell the unit is deployed on and the
+RadLevel of the infantry's secondary weapon.
+
+You can now set IsDesolator=yes on other InfantryTypes or,
+indeed, IsDesolator=no on the [DESO]►.
+
+[InfantryType]IsDesolator=boolean
+  Whether the firing timing and deploy behavior is changed for this infantry
+  unit as described above. Defaults to yes for [DESO]►, otherwise
+  to no.
+
+ 0.1
+ 3.0
