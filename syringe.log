@@ -1,35 +1,39 @@
-[23:12:22] Syringe 0.7.3.0
-[23:12:22] ===============
+[23:17:56] Syringe 0.7.3.0
+[23:17:56] ===============
 
-[23:12:22] WinMain: arguments = ""gamemd.exe" "
-[23:12:22] WinMain: Trying to load executable file "gamemd.exe"...
+[23:17:56] WinMain: arguments = ""gamemd.exe" "
+[23:17:56] WinMain: Trying to load executable file "gamemd.exe"...
 
-[23:12:22] SyringeDebugger::RetrieveInfo: Retrieving info from the executable file...
-[23:12:22] SyringeDebugger::RetrieveInfo: Executable information successfully retrieved.
-[23:12:22] 	exe = gamemd.exe
-[23:12:22] 	pImLoadLibrary = 0x007E1220
-[23:12:22] 	pImGetProcAddress = 0x007E1250
-[23:12:22] 	pcEntryPoint = 0x007CD80F
-[23:12:22] 	dwExeSize = 0x00497110
-[23:12:22] 	dwExeCRC = 0x54CC0A13
-[23:12:22] 	dwTimestamp = 0x3BDF544E
+[23:17:56] SyringeDebugger::RetrieveInfo: Retrieving info from the executable file...
+[23:17:56] SyringeDebugger::RetrieveInfo: Executable information successfully retrieved.
+[23:17:56] 	exe = gamemd.exe
+[23:17:56] 	pImLoadLibrary = 0x007E1220
+[23:17:56] 	pImGetProcAddress = 0x007E1250
+[23:17:56] 	pcEntryPoint = 0x007CD80F
+[23:17:56] 	dwExeSize = 0x00497110
+[23:17:56] 	dwExeCRC = 0x54CC0A13
+[23:17:56] 	dwTimestamp = 0x3BDF544E
 
-[23:12:22] SyringeDebugger::RetrieveInfo: Opening gamemd.exe to determine imports.
-[23:12:22] WinMain: SyringeDebugger::FindDLLs();
+[23:17:56] SyringeDebugger::RetrieveInfo: Opening gamemd.exe to determine imports.
+[23:17:56] WinMain: SyringeDebugger::FindDLLs();
 
-[23:12:22] SyringeDebugger::FindDLLs: Recognized DLL: "Ares.dll"
-[23:12:22] SyringeDebugger::Handshake: Calling "Ares.dll" ...
-[23:12:22] SyringeDebugger::Handshake: Answers "Found Yuri's Revenge 1.001 (modified). Applying Ares 3.0p1." (0)
-[23:12:22] SyringeDebugger::FindDLLs: Recognized DLL: "Phobos.dll"
-[23:12:22] SyringeDebugger::FindDLLs: Done (2548 hooks added).
+[23:17:56] SyringeDebugger::FindDLLs: Recognized DLL: "Ares.dll"
+[23:17:56] SyringeDebugger::Handshake: Calling "Ares.dll" ...
+[23:17:56] SyringeDebugger::Handshake: Answers "Found Yuri's Revenge 1.001 (modified). Applying Ares 3.0p1." (0)
+[23:17:56] SyringeDebugger::FindDLLs: Recognized DLL: "Phobos.dll"
+[23:17:56] SyringeDebugger::FindDLLs: Done (2548 hooks added).
 
-[23:12:22] WinMain: SyringeDebugger::Run(" ");
+[23:17:56] WinMain: SyringeDebugger::Run(" ");
 
-[23:12:22] SyringeDebugger::Run: Running process to debug. cmd = "gamemd.exe  "
-[23:12:23] SyringeDebugger::Run: Allocating 0x580 bytes...
-[23:12:23] SyringeDebugger::Run: pAlloc = 0x001C0000
-[23:12:23] SyringeDebugger::Run: Writing DLL loader & caller code...
-[23:12:23] SyringeDebugger::Run: pcLoadLibrary = 0x001C0000
-[23:12:23] SyringeDebugger::Run: Entering debug loop...
-[23:12:23] SyringeDebugger::HandleException: Finished retrieving proc addresses.
-[23:12:23] SyringeDebugger::HandleException: Creating code hooks.
+[23:17:56] SyringeDebugger::Run: Running process to debug. cmd = "gamemd.exe  "
+[23:17:56] SyringeDebugger::Run: Allocating 0x580 bytes...
+[23:17:56] SyringeDebugger::Run: pAlloc = 0x001C0000
+[23:17:56] SyringeDebugger::Run: Writing DLL loader & caller code...
+[23:17:56] SyringeDebugger::Run: pcLoadLibrary = 0x001C0000
+[23:17:56] SyringeDebugger::Run: Entering debug loop...
+[23:17:56] SyringeDebugger::HandleException: Finished retrieving proc addresses.
+[23:17:56] SyringeDebugger::HandleException: Creating code hooks.
+[23:20:18] SyringeDebugger::Run: Done with exit code 0 (0).
+
+[23:20:18] WinMain: SyringeDebugger::Run finished.
+[23:20:18] WinMain: Exiting on success.
